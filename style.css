@@ -1,13 +1,12 @@
 body {
   position: relative;
-  background-image: linear-gradient( #005091, #f815b8 );
-  background-repeat: no-repeat;
+  background: rgb(7,94,84);
   height: 100vh;
   display: flex;
  justify-content: center;
  }
  
- .raid{
+ .achraf{
  position: absolute;
  width: 370px;
  height: 40px;
@@ -21,12 +20,12 @@ body {
  transform: translate(-50% );
  top: 8.6%;
  }
- .raid:hover {
-  background-color: #ddd;
-  color: black;
+ .achraf:hover {
+  background-color: rgb(220,248,198);
+  color: rgb(18,140,126);
  }
  
- .mohammed{
+ .mohamed{
   position: absolute;
   width: 370px;
   height: 40px;
@@ -40,9 +39,9 @@ body {
   transform: translate(-50% );
   top: 8.6%;
   }
-  .mohammed:hover {
-   background-color: #ddd;
-   color: black;
+  .mohamed:hover {
+    background-color: rgb(220,248,198);
+    color: rgb(18,140,126);
   }
   /* <-----1-----> */
  
@@ -50,7 +49,7 @@ body {
    position: absolute;
   width: 750px;
   height: 500px;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(236,229,221);
   color: rgb(0, 0, 0);
   text-align: center;
   border-radius: 20px;
@@ -103,7 +102,7 @@ body {
    transform: translate(-50% );
   }
   
- .mohammed-message {
+ .mohamed-message {
    background-color: rgb(174, 174, 174);
    color: black;
    width: 350px;
@@ -112,7 +111,7 @@ body {
    transform: translate(7% );
  }
  
- .raid-message {
+ .achraf-message {
    background-color: rgb(121, 121, 121);
    color: rgb(0, 0, 0);
    width: 350px;
